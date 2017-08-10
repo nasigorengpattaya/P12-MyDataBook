@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    android:orientation="vertical"
+    tools:context="sg.edu.rp.c346.p12_mydatabook.AboutUsActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:elevation="1dp"
+        android:gravity="center"
+        android:text="Created By: Benedict Yeo"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        app:srcCompat="@drawable/ajax_loader" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:elevation="1dp"
+        android:gravity="center"
+        android:text="C347 - Android Programming 2 \n Republic Polytechnic"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp" />
+</LinearLayout>
